@@ -1,0 +1,246 @@
+.container{
+    padding: 20px 300px;
+    background-image: linear-gradient(#FCD469, white);
+}
+.container h1{
+    text-align: center;
+    width: 500px;
+    position: relative;
+    left: 180px;
+}
+.pricing-cards{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    gap: 20px;
+    
+    padding-left: 0
+}
+.pricing-cards h2{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color:rgb(107, 198, 65);
+    font-weight: 900;
+}
+.pricing-cards h3{
+    font-size: 30px;
+    color:rgb(17, 114, 127);
+}
+.pricing-cards p{
+    font-weight: 600;
+    position: relative;
+    top:-40px;
+    color:rgb(107, 198, 65);
+}
+.pricing-card1{
+    width: 350px;
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom:20px;
+    background-color:white ;
+}
+.pricing-card2{
+    
+    width: 450px;
+    height: 500px;
+    padding-top: 100px;
+    background-color:white ;
+}
+.pricing-card3{
+    width: 350px;
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom:20px;
+    background-color:white ;
+}
+.pricing-cards li{
+position: relative;
+  font-size: 16px;
+  list-style-type: none;
+  font-weight: 500;
+  color: grey;
+  font-weight: 700;
+}
+.pricing-cards li::before{
+content: "\2713"; 
+  color: green; /
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+hr{
+    color: grey;
+}
+.pricing-cards img{
+    width: 100px;
+}
+
+.slide-container{
+    padding: 200px 20px;
+    width: 1000px;
+    position: relative;
+    left: 100px;
+}
+.quotes{
+    padding: 20px 550px;
+    position:relative;
+    top: -100px;
+    text-align: center;
+    align-items: center;
+}
+.quotes img{
+    width: 60px;
+    background-color: #FCD469;
+    padding: 50px 50px;
+}
+.section-one{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 200px;
+}
+.right-quote h2{
+    position:relative;
+    top: -20px;
+    width: 300px;
+}
+.right-quote p{
+    position:relative;
+    top: -40px;
+    width: 300px;
+    color: grey;
+}
+
+.section-two{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: -315px;
+    
+}
+.section-two .left-quote h2{
+    width: 300px;
+}
+.section-two .left-quote p{
+    position: relative;
+    top: -15px;
+    color: grey;
+}
+.color1 img{
+    background-color: blueviolet;
+}
+.color1 h2{
+    color: blueviolet;
+}
+
+.color2 img{
+    background-color:#FCD469;
+}
+.color2 h2{
+    color: #FCD469;
+}
+.color3 img{
+    background-color:chocolate;
+}
+.color3 h2{
+    color:chocolate;
+}
+.color4 img{
+    background-color:cadetblue;
+}
+.color4 h2{
+    color:cadetblue;
+}
+
+@media screen and (max-width:400px){
+    .container{
+        padding: 20px 20px;
+        background-image: linear-gradient(#FCD469, white);
+    }
+    .container h1{
+        text-align: center;
+        width: 290px;
+        position: relative;
+        left: 18px;
+    }
+    .pricing-cards{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        gap: 30px;
+        padding-left: 0
+    }
+    .pricing-cards h2{
+        font-size: 20px;
+        letter-spacing: 5px;
+        color:rgb(107, 198, 65);
+        font-weight: 900;
+    }
+    .pricing-cards h3{
+        font-size: 30px;
+        color:rgb(17, 114, 127);
+    }
+    .pricing-cards p{
+        font-weight: 600;
+        position: relative;
+        top:-40px;
+        color:rgb(107, 198, 65);
+    }
+    .pricing-card1{
+        width: 300px;
+        height: 400px;
+        padding-top: 50px;
+        padding-bottom:20px;
+        background-color:white ;
+    }
+    .pricing-card2{
+        
+        width: 300px;
+        height: 400px;
+        padding-top: 50px;
+        background-color:white ;
+        margin-top: 50px;
+    }
+    .pricing-card3{
+        width: 300px;
+        height: 400px;
+        padding-top: 50px;
+        padding-bottom:20px;
+        background-color:white ;
+        margin-top: 50px;
+    }
+    .pricing-cards li{
+    position: relative;
+      font-size: 16px;
+      list-style-type: none;
+      font-weight: 500;
+      color: grey;
+      font-weight: 700;
+    }
+    .pricing-cards li::before{
+    content: "\2713"; 
+      color: green; /
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    hr{
+        color: grey;
+    }
+    .pricing-cards img{
+        width: 100px;
+    }
+    .quotes{
+        padding: 20px 20px;
+        position:relative;
+        top: -100px;
+        text-align: center;
+        align-items: center;
+        display: none;
+    }
+    
+}

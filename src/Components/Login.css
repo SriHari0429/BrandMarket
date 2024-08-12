@@ -1,0 +1,30 @@
+
+.log{
+    padding: 200px 0px;
+}
+.login-container{
+    position: relative;
+    top: -50px;
+}
+.login-options button{
+    margin-left: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transition: 0.5s;
+}
+
+.login-options img{
+    width: 30px;
+    padding-right: 10px;
+}
+.login-options button:hover{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 20px -20px;
+    transition: 0.5s;
+    font-size: 18px;
+}

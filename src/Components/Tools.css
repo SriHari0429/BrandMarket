@@ -1,0 +1,122 @@
+.header{
+    background-color:#FCD469 ;
+    position:relative;
+    top: -30px;
+    padding: 30px 0px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.header h1{
+    font-weight: 900;
+}
+.header p{
+    position: relative;
+    top: -20px;
+}
+.cards{
+    padding: 10px 250px;
+    text-align: center;
+    color: white;
+}
+.cards img{
+    width: 80px;
+}
+.cards h2{
+    font-weight: 800;
+}
+.cards p{
+    font-weight: 500;
+    color: grey;
+}
+.top{
+    display: flex;
+    gap: 50px;
+    position:relative;
+    top: -200px;
+}
+.card1{
+    border-radius: 10px;
+    width: 500px;
+    padding: 50px 20px;
+    background-color: #EA5190;
+}
+.card2{
+    border-radius: 10px;
+    width: 500px;
+    padding: 50px 20px;
+    background-color:#84CBA1 ;
+}
+.card3{
+    border-radius: 10px;
+    width: 500px;
+    padding: 50px 20px;
+    background-color: #7ACED3;
+}
+.card4{
+    border-radius: 10px;
+    width: 500px;
+    padding: 50px 20px;
+    background-color: #ECC36C;
+}
+.bottom{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    position: relative;
+    top: -180px;
+}
+
+@media screen and (max-width: 400px){
+    .cards{
+        padding: 10px 10px;
+        text-align: center;
+        color: white;
+    }
+    .cards img{
+        width: 80px;
+    }
+    .cards h2{
+        font-weight: 800;
+    }
+    .cards p{
+        font-weight: 500;
+        color: grey;
+    }
+    .top{
+        flex-wrap: wrap;
+        gap: 50px;
+        position:relative;
+        top: -200px;
+    }
+    .card1{
+        border-radius: 10px;
+        width: 500px;
+        padding: 50px 20px;
+        background-color: #EA5190;
+    }
+    .card2{
+        border-radius: 10px;
+        width: 500px;
+        padding: 50px 20px;
+        background-color:#84CBA1 ;
+    }
+    .card3{
+        border-radius: 10px;
+        width: 500px;
+        padding: 50px 20px;
+        background-color: #7ACED3;
+    }
+    .card4{
+        border-radius: 10px;
+        width: 500px;
+        padding: 50px 20px;
+        background-color: #ECC36C;
+    }
+    .bottom{
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-top: 20px;
+        position: relative;
+        top: -180px;
+    }
+}
